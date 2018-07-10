@@ -94,7 +94,7 @@ a, .u-fauxlink {
     & > p, & > h2,& > ul,  .element-interactive,.element-atom {
 
       em {
-        
+
         background-color: #c70000;
         width: 1em;
         height: 1em;
@@ -110,7 +110,7 @@ a, .u-fauxlink {
         margin-right: 0.25em;
         font-weight: 600;
       }
- 
+
         max-width: 620px;
 
         @include mq(leftCol) {
@@ -225,7 +225,10 @@ a, .u-fauxlink {
 }
 
 .image__inner {
-    padding-bottom: 60%;
+    padding-bottom: 100%;
+    @include mq(tablet) {
+      padding-bottom: 60%;
+    }
     .image--double & {
         padding-bottom: 120%;
     }
