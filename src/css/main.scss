@@ -37,10 +37,10 @@
   font-weight: 200;
   line-height: 25px;
   font-size: 22px;
-  max-width: 280px;
-  @include mq(leftCol) {
-    max-width: 460px;
-  }
+//   max-width: 280px;
+//   @include mq(leftCol) {
+//     max-width: 460px;
+//   }
 }
 
 .content__main, .content__head {
