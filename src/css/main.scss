@@ -152,6 +152,11 @@ a, .u-fauxlink {
     	max-width: initial;
     	margin-left: 0 !important;
         margin-bottom: 36px !important;
+
+        @include mq(wide) {
+            width: 1300px;
+            margin-left: -20px !important;
+        }
     }
 
     .element--showcase {
@@ -269,10 +274,10 @@ a, .u-fauxlink {
 
 .interactive-grid__caption span {
     display: inline;
-    background-color: #c70000;
+    background-color: #ffe500;
     @include fs-bodyCopy(1);
     font-style: italic;
-    color: #fff;
+    color: #000;
     padding: 3px 2px 2px 4px;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
