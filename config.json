@@ -1,9 +1,15 @@
 {
-    "title": "California guide enhancer",
+    "title": "California guide v2.0 enhancer",
     "docData": "",
-    "docDataUrl": "https://interactive.guim.co.uk/docsdata/155J2XHs4_wGly11mJJEFcatuwhOZuoet2gUu_uBs4e0.json",
-    "path": "2018/07/california-enhancer",
+    "docDataUrl": "https://interactive.guim.co.uk/docsdata-test/1QEwDn2caEiHEQjhjDOYJVwj2tG1AEok6UgIW6Q8rGqY.json",
+    "path": "2018/08/california-enhancer",
     "previousExamples" : [
+        {
+        "title": "California guide enhancer",
+        "docData": "",
+        "docDataUrl": "https://interactive.guim.co.uk/docsdata/155J2XHs4_wGly11mJJEFcatuwhOZuoet2gUu_uBs4e0.json",
+        "path": "2018/07/california-enhancer"
+        },
         {
         "title": "Viz guide enhancer",
         "docData": "",
@@ -12,3 +18,5 @@
         }
     ]
 }
+
+ 
