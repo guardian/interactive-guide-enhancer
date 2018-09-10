@@ -128,7 +128,7 @@ a, .u-fauxlink {
     }
 
     & > p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     & > h2 {
@@ -138,7 +138,11 @@ a, .u-fauxlink {
     	font-weight: 700;
     	color: #333;
     	margin-top: 36px;
-    	margin-bottom: 6px;
+        margin-bottom: 6px;
+        
+        background: $highlight-yellow;
+        display: inline-block;
+        padding: 3px 5px;
 
       @include mq($until: desktop) {
         font-size: 24px;
@@ -153,15 +157,26 @@ a, .u-fauxlink {
     	margin-left: 0 !important;
         margin-bottom: 36px !important;
 
-        @include mq(wide) {
-            width: 1300px;
-            margin-left: -20px !important;
+        background: white !important;
+
+        & iframe {
+            display: block;
         }
     }
 
     .element--showcase {
 
-      max-width: 860px;
+        max-width: 860px;
+
+        margin-left: 0;
+
+        @include mq(leftCol) {
+            margin-left: 150px;
+        }
+
+        @include mq(wide) {
+            margin-left: 250px;
+        }
 
     }
 
@@ -339,3 +354,10 @@ a, .u-fauxlink {
 // .prose blockquote.quoted::before {
 //   display: none;
 // }
+
+
+.gu-graphic-header {
+    & h2 {
+        background: red !important;
+    }
+}
