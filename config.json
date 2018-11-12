@@ -1,9 +1,15 @@
 {
-    "title": "California guide v2.0 enhancer",
+    "title": "Generic enhancer (no photo)",
     "docData": "",
     "docDataUrl": "https://interactive.guim.co.uk/docsdata-test/1QEwDn2caEiHEQjhjDOYJVwj2tG1AEok6UgIW6Q8rGqY.json",
-    "path": "2018/08/california-enhancer",
+    "path": "2018/11/generic-enhancer",
     "previousExamples" : [
+        {
+            "title": "California guide v2.0 enhancer",
+            "docData": "",
+            "docDataUrl": "https://interactive.guim.co.uk/docsdata-test/1QEwDn2caEiHEQjhjDOYJVwj2tG1AEok6UgIW6Q8rGqY.json",
+            "path": "2018/08/california-enhancer"
+        },
         {
         "title": "California guide enhancer",
         "docData": "",
