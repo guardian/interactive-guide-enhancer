@@ -92,11 +92,12 @@ a, .u-fauxlink {
   border-top: none;
 }
 .content__main-column--interactive {
-    & > p, & > h2,& > ul,  .element-interactive,.element-atom,.element-video {
+    & > p,& > h2,& > ul, & > sub,  .element-interactive,.element-atom,.element-video {
 
       strong {
         background-color: $highlight_yellow;
-        padding: 4px;
+        box-shadow: 4px 0 0 $highlight_yellow, -4px 0 0 $highlight-yellow;
+        padding-bottom: .1em;
       }
 
 
@@ -112,12 +113,24 @@ a, .u-fauxlink {
 
     & > p {
         font-size: 18px;
+
+        strong {
+          background-color: none;
+          box-shadow: none;
+        }
+
+        sub {
+          bottom: 0px;
+          font-size: 100%;
+          font-family: "Guardian Headline", "Guardian Egyptian Web", Georgia;
+          font-weight: 700;
+        }
     }
 
     & > h2 {
     	font-family: "Guardian Headline", "Guardian Egyptian Web", Georgia;
     	font-size: 28px;
-    	line-height: 32px;
+    	line-height: 1.36;
     	font-weight: 700;
     	color: #333;
     	margin-top: 36px;
@@ -125,10 +138,8 @@ a, .u-fauxlink {
 
       @include mq($until: desktop) {
         font-size: 24px;
-        line-height: 28px;
       }
 
-      
     }
 
     .element--immersive {
