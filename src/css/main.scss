@@ -38,10 +38,11 @@
   line-height: 28px;
   font-size: 22px;
   margin-top: 12px;
+  max-width: 80%;
 //   max-width: 280px;
-//   @include mq(leftCol) {
-//     max-width: 460px;
-//   }
+  @include mq(tablet) {
+    max-width: 540px;
+  }
 }
 
 .content__main, .content__head {
