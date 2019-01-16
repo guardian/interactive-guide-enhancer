@@ -11,8 +11,8 @@
 }
 
 .content--interactive .content__headline, .headline {
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 32px;
+  line-height: 36px;
   font-family: "Guardian Egyptian Web","Guardian Text Egyptian Web",Georgia,serif;
   font-weight: 700;
 
@@ -35,13 +35,17 @@
 .content__standfirst, .standfirst {
 
   font-weight: 200;
-  line-height: 28px;
-  font-size: 22px;
+  line-height: 24px;
+  font-size: 18px;
   margin-top: 12px;
   max-width: 80%;
 //   max-width: 280px;
   @include mq(tablet) {
     max-width: 540px;
+  }
+  @include mq(desktop) {
+    font-size: 22px;
+    line-height: 26px;
   }
 }
 
