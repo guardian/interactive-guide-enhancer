@@ -102,11 +102,11 @@ a, .u-fauxlink {
 .content__main-column--interactive {
     & > p,& > h2,& > ul, & > sub,  .element-interactive,.element-atom,.element-video {
 
-      // strong {
-      //   background-color: $highlight_yellow;
-      //   box-shadow: 4px 0 0 $highlight_yellow, -4px 0 0 $highlight-yellow;
-      //   padding-bottom: .1em;
-      // }
+      strong {
+        background-color: $highlight_yellow;
+        box-shadow: 4px 0 0 $highlight_yellow, -4px 0 0 $highlight-yellow;
+        padding-bottom: .1em;
+      }
 
 
         max-width: 620px;
