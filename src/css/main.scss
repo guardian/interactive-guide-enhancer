@@ -282,6 +282,10 @@ a, .u-fauxlink {
     -webkit-box-decoration-break: clone;
 }
 
+figure + h2 {
+    margin-top: -18px !important;
+}
+
 // .content__main-column--interactive blockquote, .prose blockquote {
 //   font-style: normal;
 //   margin: 0 0 10px 10px;
